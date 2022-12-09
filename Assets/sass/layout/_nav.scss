@@ -1,0 +1,33 @@
+nav {
+   
+    width: 100%;
+    display: flex;
+    background-color: #235390;
+    align-items: center;
+    justify-content: space-around;
+
+    div {
+        img {
+            width: 153px;
+            height: 36px;
+        }
+    }
+
+    .dropdown {
+        display: flex;
+        width: 210px;
+        height: 80px;
+            background-color: #235390;;
+        justify-content: center;
+
+        .dropbtn {
+            width: 210px;
+            height: 80px;
+                background-color: #235390;
+            border: none;
+            font-size: 20px;
+            color: white;
+
+        }
+    }
+}

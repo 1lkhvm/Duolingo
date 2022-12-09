@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  background-color: #235390;
+  align-items: center;
+  justify-content: space-around;
+}
+nav div img {
+  width: 153px;
+  height: 36px;
+}
+nav .dropdown {
+  display: flex;
+  width: 210px;
+  height: 80px;
+  background-color: #235390;
+  justify-content: center;
+}
+nav .dropdown .dropbtn {
+  width: 210px;
+  height: 80px;
+  background-color: #235390;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+.home-page1 {
+  width: 100%;
+  background-color: #235390;
+}
+.home-page1 .container-earth {
+  background-image: url(../imgs/4986531ca822d48e57b4a18f40ff5172\ \(1\).svg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-page1 .btn-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.home-page1 .btn-h1 h1 {
+  color: white;
+  font-size: 32px;
+}
+.home-page1 .btn-h1 .go-acc {
+  width: 346px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: chartreuse;
+  color: white;
+  font-size: 20px;
+}
+.home-page1 .btn-h1 .go-login {
+  width: 346px;
+  height: 50px;
+  border-radius: 20px;
+  border-color: #113666;
+  box-shadow: 2px #113666;
+  background-color: #235390;
+  color: white;
+  font-size: 20px;
+}
+
+.scroll-language {
+  width: 100%;
+  height: 100px;
+  background-color: #0a4a82;
+}
+
+img {
+  width: 100%;
+}
+
+.page-2 {
+  width: 100%;
+  font-size: 17px;
+}
+.page-2 .birds-text {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.page-2 .birds-text .bird-page-img img {
+  width: 185px;
+  height: 145px;
+}
+.page-2 .birds-text div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.page-2 .page-2-hr hr {
+  height: 1px;
+  background-color: gray;
+  margin: 0 auto;
+  width: 51%;
+}
+.page-2 h2 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.page-2 .neden-cok-seveceksin .imgnotebook {
+  width: 200px;
+  height: 161px;
+}
+.page-2 .neden-cok-seveceksin .etkiliveverimli {
+  display: flex;
+}
+.page-2 .neden-cok-seveceksin .etkiliveverimli .veverimli {
+  display: flex;
+}
+.page-2 .neden-cok-seveceksin .etkiliveverimli .veverimli div img {
+  width: 43px;
+  height: 43px;
+}/*# sourceMappingURL=main.css.map */

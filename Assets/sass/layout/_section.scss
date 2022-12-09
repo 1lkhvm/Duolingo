@@ -1,0 +1,132 @@
+.home-page1 {
+    width: 100%;
+    background-color: #235390;
+
+    .container-earth {
+        background-image: url(../imgs/4986531ca822d48e57b4a18f40ff5172\ \(1\).svg);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .btn-h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        h1 {
+            color: white;
+            font-size: 32px;
+        }
+
+        .go-acc {
+            width: 346px;
+            height: 50px;
+            border-radius: 20px;
+            border: none;
+            background-color: chartreuse;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        .go-login {
+            width: 346px;
+            height: 50px;
+            border-radius: 20px;
+            border-color: #113666;
+            box-shadow: 2px #113666;
+            background-color: #235390;
+            color: white;
+            font-size: 20px;
+        }
+
+    }
+
+}
+
+.scroll-language {
+    width: 100%;
+    height: 100px;
+    background-color: #0a4a82;
+}
+
+
+
+
+
+
+
+
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+.page-2 {
+    width: 100%;
+    font-size: 17px;
+
+    .birds-text {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .bird-page-img {
+            img {
+                width: 185px;
+                height: 145px;
+            }
+
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px
+        }
+    }
+
+    .page-2-hr{
+        hr{
+            height: 1px;
+            background-color: gray;
+            margin: 0 auto;
+            width: 51%;
+        }
+    }
+h2{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+    .neden-cok-seveceksin{
+        .imgnotebook{
+            width: 200px;
+            height: 161px   ;
+        }
+        .etkiliveverimli{
+            display: flex;
+
+            .veverimli{
+                display: flex;
+                div{ img{width: 43px;
+                        height: 43px;
+                    
+                }
+            }
+        }
+
+    }
+}}
